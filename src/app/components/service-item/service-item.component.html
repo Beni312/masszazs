@@ -1,0 +1,17 @@
+<div class="services-block">
+  <div class="service-header">
+    <div class="bg-primary p-2 mt-2">
+      {{service.name}}
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let item of service.services" class="d-flex justify-content-between">
+      <div class="ml-2">
+        {{item.time + ' perc'}}
+      </div>
+      <div class="mr-1">
+        {{item.price + ' Ft'}}
+      </div>
+    </div>
+  </div>
+</div>

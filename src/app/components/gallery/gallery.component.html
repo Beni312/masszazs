@@ -1,0 +1,91 @@
+<section id="gallery">
+<!--  <crystal-gallery [images]="myImages" [config]="myConfig"></crystal-gallery>-->
+  <ngx-masonry [options]="myOptions">
+<!--    <div ngxMasonryItem class="masonry-item" *ngFor="let item of masonryItems">-->
+<!--      {{item.title}}-->
+<!--    </div>-->
+
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(0)">-->
+<!--      <img src="https://www.traverse-blog.com/wp-content/uploads/2020/01/Finnish-Sauna-Photos-8.jpg" alt="A windmill" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(1)">-->
+<!--      <img src="https://www.hotelvisegrad.hu/wp-content/uploads/therapeutic-massage-672x365-1.jpg" alt="The Clifton Suspension Bridge" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(2)">-->
+<!--      <img src="https://lp-cms-production.imgix.net/features/2017/11/GettyImages-691286516-53936efbf7ce.jpg" alt="Sunset and boats" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(3)">-->
+<!--      <img src="https://chadathaibudapest.hu/application/files/9715/7537/7289/header-img-2.png" alt="a river in the snow" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(4)">-->
+<!--      <img src="https://static8.depositphotos.com/1261297/899/i/600/depositphotos_8991013-stock-photo-spa-massage-setting-with-candlelight.jpg" alt="a single checked balloon" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(5)">-->
+<!--      <img src="https://www.royaltubs.co.uk/wp-content/uploads/2015/03/Sauna-Pod-inside-1.jpg" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(6)">-->
+<!--      <img src="https://i1.wp.com/roblichtcustomsaunas.com/wp-content/uploads/2020/06/electric-mobile-sauna.177.052320-copy.jpg?fit=720%2C1024&ssl=1" alt="View from a hot air balloon of other balloons" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(7)">-->
+<!--      <img src="https://varfurdo.hu/en/adat/kepgaleria/hu133_aquapalota-szauna-22.jpg" alt="a balloon fairground ride" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(8)">-->
+<!--      <img src="https://images-na.ssl-images-amazon.com/images/I/71GXCCyrGXL._AC_SL1000_.jpg" alt="sunrise over a harbor" />-->
+<!--    </div>-->
+<!--    <div ngxMasonryItem class="masonry-item"  (click)="open(9)">-->
+<!--      <img src="https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1365232&recipeId=728" alt="three hot air balloons in a blue sky" />-->
+<!--    </div>-->
+  </ngx-masonry>
+  <div class="container">
+    <figure (click)="open(0)">
+      <img src="https://www.traverse-blog.com/wp-content/uploads/2020/01/Finnish-Sauna-Photos-8.jpg" alt="A windmill" />
+      <figcaption><a href="#">1</a></figcaption>
+    </figure>
+    <figure (click)="open(1)">
+      <img src="https://www.hotelvisegrad.hu/wp-content/uploads/therapeutic-massage-672x365-1.jpg" alt="The Clifton Suspension Bridge" />
+      <figcaption><a href="#">2</a></figcaption>
+    </figure>
+    <figure (click)="open(2)">
+      <img src="https://lp-cms-production.imgix.net/features/2017/11/GettyImages-691286516-53936efbf7ce.jpg" alt="Sunset and boats" />
+      <figcaption><a href="#">3</a></figcaption>
+    </figure>
+    <figure (click)="open(3)">
+      <img src="https://chadathaibudapest.hu/application/files/9715/7537/7289/header-img-2.png" alt="a river in the snow" />
+      <figcaption><a href="#">4</a></figcaption>
+    </figure>
+    <figure (click)="open(4)">
+      <img src="https://static8.depositphotos.com/1261297/899/i/600/depositphotos_8991013-stock-photo-spa-massage-setting-with-candlelight.jpg" alt="a single checked balloon" />
+      <figcaption><a href="#">5</a></figcaption>
+    </figure>
+    <figure (click)="open(5)">
+      <img src="https://www.royaltubs.co.uk/wp-content/uploads/2015/03/Sauna-Pod-inside-1.jpg" />
+      <figcaption><a href="#">6</a></figcaption>
+    </figure>
+    <figure (click)="open(6)">
+      <img src="https://i1.wp.com/roblichtcustomsaunas.com/wp-content/uploads/2020/06/electric-mobile-sauna.177.052320-copy.jpg?fit=720%2C1024&ssl=1" alt="View from a hot air balloon of other balloons" />
+      <figcaption><a href="#">7</a></figcaption>
+    </figure>
+    <figure (click)="open(7)">
+      <img src="https://varfurdo.hu/en/adat/kepgaleria/hu133_aquapalota-szauna-22.jpg" alt="a balloon fairground ride" />
+      <figcaption><a href="#">8</a></figcaption>
+    </figure>
+    <figure (click)="open(8)">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71GXCCyrGXL._AC_SL1000_.jpg" alt="sunrise over a harbor" />
+      <figcaption><a href="#">9</a></figcaption>
+    </figure>
+    <figure (click)="open(9)">
+      <img src="https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1365232&recipeId=728" alt="three hot air balloons in a blue sky" />
+      <figcaption><a href="#">10</a></figcaption>
+    </figure>
+<!--    <figure>-->
+<!--      <img src="https://assets.codepen.io/12005/toronto.jpg" alt="the Toronto light up sign at night" />-->
+<!--      <figcaption><a href="#">11</a></figcaption>-->
+<!--    </figure>-->
+  </div>
+
+<!--  <ks-carousel></ks-carousel>-->
+<!--  <ks-gallery></ks-gallery>-->
+<!--  <ks-modal-gallery></ks-modal-gallery>-->
+<!--  <ks-modal-gallery></ks-modal-gallery>-->
+  <ks-modal-gallery #mGallery [id]="1" [modalImages]="images" [plainGalleryConfig]="plainConfig"></ks-modal-gallery>
+</section>
